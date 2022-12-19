@@ -11,7 +11,7 @@ defmodule EthereumJSONRPC.WebSocket.Case.Parity do
     web_socket = start_supervised!({web_socket_module, [url, [keepalive: :timer.minutes(10)], []]})
 
     %{
-      block_interval: 5_000,
+      block_interval: 2_000,
       subscribe_named_arguments: [
         transport: EthereumJSONRPC.WebSocket,
         transport_options: %EthereumJSONRPC.WebSocket{

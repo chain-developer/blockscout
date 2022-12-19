@@ -1,7 +1,7 @@
 import Config
 
 config :indexer,
-  block_interval: :timer.seconds(5),
+  block_interval: :timer.seconds(2),
   blocks_concurrency: 1,
   receipts_concurrency: 1,
   json_rpc_named_arguments: [

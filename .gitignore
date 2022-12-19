@@ -47,4 +47,5 @@ screenshots/
 /docker-compose/tmp
 
 .idea/
+.vscode/
 *.iml
